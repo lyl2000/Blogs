@@ -1,18 +1,14 @@
 - sitename: GitHub
-  name: mzlogin
-  url: https://github.com/mzlogin
-
-- sitename: 掘金
-  name: mzlogin
-  url: http://gold.xitu.io/user/570ddaeb2e958a005c63b2da
+  name: lyl2000
+  url: https://github.com/lyl2000
 
 - sitename: LinkedIn
   name: mazhuang
   url: https://www.linkedin.com/in/mazhuang
 
 - sitename: 博客
-  name: 码志
-  url: http://mazhuang.org
+  name: 云码
+  url: https://lyl2000.github.io/Blogs
 
 - sitename: 微博
   name: mzlogin
