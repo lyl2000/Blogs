@@ -138,7 +138,7 @@ gitment:
         client_secret: 
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: 
+    owner: lyl2000
     repo: blog-comments
     clientID: f6c5fce856054db11fa3
     clientSecret: d25611c4df3fae370bb493aa1ca1e150fe3f1083
