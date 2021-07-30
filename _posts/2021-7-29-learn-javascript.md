@@ -5,6 +5,9 @@ categories: [JavaScript]
 description: 廖雪峰JavaScript网站学习记录
 keywords: JavaScript
 ---
+
+本篇博客主要依据[廖雪峰官方javascript教程](https://www.liaoxuefeng.com/wiki/1022910821149312)学习并记录相关知识点。
+
 #### 基本语法
 
 - JavaScript的每个语句以 `;` 结束，但是不强制要求每个语句以 `;` 结尾，浏览器中负责执行JavaScript代码的引擎会自动在每个语句的结尾补上，在某些情况下会改变程序的语义，导致运行结果与期望不一致
@@ -326,8 +329,10 @@ keywords: JavaScript
         ```
 #### 浏览器对象
 - `window`
+    - 浏览器窗口
     - `innerWidth` 和 `innerHeight` 属性，可以获取浏览器窗口的内部宽度和高度
 - `navigator`
+    - 浏览器的信息
     - `navigator.appName` ：浏览器名称；
     - `navigator.appVersion` ：浏览器版本；
     - `navigator.language` ：浏览器设置的语言；
@@ -335,3 +340,21 @@ keywords: JavaScript
     - `navigator.userAgent` ：浏览器设定的 `User-Agent` 字符串
     - `navigator` 的信息可以很容易地被用户修改，所以读取的值不一定是正确的
 - `screen`
+    - 屏幕的信息
+    - `screen.width` ：屏幕宽度，以像素为单位；
+    - `screen.height` ：屏幕高度，以像素为单位；
+    - `screen.colorDepth` ：返回颜色位数，如8、16、24。
+- `location`
+    - 当前页面的URL信息
+        ```js
+        location.href; //http://www.example.com:8080/path/index.html?a=1&b=2#TOP
+        location.protocol; // 'http'
+        location.host; // 'www.example.com'
+        location.port; // '8080'
+        location.pathname; // '/path/index.html'
+        location.search; // '?a=1&b=2'
+        location.hash; // 'TOP'
+        ```
+    - 要加载一个新页面，可以调用 `location.assign()` 。如果要重新加载当前页面，调用 `location.reload()` 方法非常方便
+- document
+    - 当前页面。由于HTML在浏览器中以DOM形式表示为树形结构，`document` 对象就是整个DOM树的根节点
