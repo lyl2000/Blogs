@@ -7,7 +7,7 @@ keywords: JavaScript
 ---
 
 本篇博客主要依据[廖雪峰官方javascript教程](https://www.liaoxuefeng.com/wiki/1022910821149312)学习并记录相关知识点。
-
+<!-- ======= -->
 JavaScript之前在做数据库课设时其实用到过，主要是前端设计那里，包括jQuery、Ajax也都涉及过，但也仅此而已，并没有系统地学习过这个语言。现在对于网页的脚本感兴趣，因此趁着有时间特地学习一下。
 
 
@@ -387,5 +387,10 @@ JavaScript之前在做数据库课设时其实用到过，主要是前端设计�
         location.hash; // 'TOP'
         ```
     - 要加载一个新页面，可以调用 `location.assign()` 。如果要重新加载当前页面，调用 `location.reload()` 方法非常方便
-- document
-    - 当前页面。由于HTML在浏览器中以DOM形式表示为树形结构，`document` 对象就是整个DOM树的根节点
+- `document`
+    - 当前页面。由于HTML在浏览器中以 `DOM` 形式表示为树形结构，`document` 对象就是整个 `DOM` 树的根节点
+    - `getElementById()` 和 `getElementsByTagName()` 可以按 `ID` 获得一个 `DOM` 节点和按Tag名称获得一组DOM节点
+    - `document.cookie` 读取到当前页面的Cookie
+- `history`
+    - `back()` 或 `forward()`相当于浏览器的“后退”或“前进”按钮
+    - 属于历史遗留对象，任何情况都不应该使用 `history` 这个对象了
