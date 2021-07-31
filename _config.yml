@@ -103,7 +103,9 @@ highlighter: rouge
 paginate: 10
 lsi: false
 quiet: false
-excerpt_separator: "\n\n"
+excerpt_separator: "<!-- ======= -->"
+# jekyll的摘要分隔符为excerpt_separator，我看到你的设置为\n\n， 这个会在跨平台编辑时出现问题，因为windows和mac平台下的换行符没有连续的‘\n‘ 出现的，如果在windows的一些编辑器里编辑时就会找不到这个分隔符。这个地方建议修改下默认配置为“======”等比较好
+# 感谢建议，原来是这个原因。这个问题之前有人提过：mzlogin/mzlogin.github.io#47 讨论过。可以配置 git 提交时自动转换换行符，也可以改为使用 description 等，用 ========= 会影响正文显示，你可以用注释将它包起来，如 <!-- ======= -->。我考虑下如何优雅点解决。
 permalink: /:year/:month/:day/:title/
 plugins:
     - jekyll-github-metadata
