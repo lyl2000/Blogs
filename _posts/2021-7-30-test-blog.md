@@ -12,6 +12,7 @@ keywords: Github, blog
 
 后来了解到了Jekyll + Github Pages 搭建个人免费博客。搭建步骤简单，不需要买服务器，界面也很好看，[参考博客](https://feedliu.github.io/2019/02/15/build-your-own-blog-site/)，于是就直接拿来用了。
 
+
 DP(Dynamic Programming，动态规划)也是强化学习的重要基础，因为MDP的天然属性，使得DP能够应用到RL上，这章里的策略评估、策略迭代、值迭代都用到了DP。
 
 # DP(Dynamic Programming)
