@@ -1,10 +1,16 @@
----                            
-layout: post                   
-title: 【强化学习笔记3】MDP的动态规划
-categories: RL RL_Notes                
-description: 强化学习笔记第三章
-keywords: Machine Learning, Reinforcement Learning, DP
---- 
+---
+layout: post
+title: 使用Github搭建个人博客-test
+categories: [Github]
+description: 使用Github搭建个人博客
+keywords: Github, blog
+---
+
+很久以前就想自己搭个主页或者博客记录平台，看到周围很多人都有，或者在网上查资料时看到都有独有的网站时也是很羡慕，这个暑假终于实现了。
+
+起初想法是通过学习前端和后端技术自己搭建一个，也的确是花时间学习了Python Flask后端和Vue前端，搭建平台其实就像之前做数据库课设那样，设计数据库格式，用前后端分离框架，界面好看些可以用Bootstrap设计。做好后还要考虑租个服务器等各种事项。
+
+后来了解到了Jekyll + Github Pages 搭建个人免费博客。搭建步骤简单，不需要买服务器，界面也很好看，[参考博客](https://feedliu.github.io/2019/02/15/build-your-own-blog-site/)，于是就直接拿来用了。
 
 DP(Dynamic Programming，动态规划)也是强化学习的重要基础，因为MDP的天然属性，使得DP能够应用到RL上，这章里的策略评估、策略迭代、值迭代都用到了DP。
 
