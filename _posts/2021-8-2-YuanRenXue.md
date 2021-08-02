@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 猿人学JS逆向第一题
+title: 猿人学 JS逆向 爬虫攻防大赛第一题
 categories: [JavaScript, Web Crawler]
-description: 猿人学JS逆向第一题
+description: 猿人学 JS逆向 爬虫攻防大赛第一题
 keywords: JavaScript, Web Crawler
 ---
 
