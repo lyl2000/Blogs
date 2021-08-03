@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 猿人学 JS逆向 爬虫攻防大赛第一题
-categories: [JavaScript, Python, Web Crawler]
+categories: [猿人学, JavaScript, Python, Web Crawler]
 description: 猿人学 JS逆向 爬虫攻防大赛第一题
-keywords: JavaScript, Python, Web Crawler
+keywords: 猿人学, JavaScript, Python, Web Crawler
 ---
 
 原本是去学习Temper Monkey脚本咋写的，结果看到了JS逆向的东西，和爬虫也有些关系。
