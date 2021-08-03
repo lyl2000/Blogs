@@ -23,4 +23,8 @@ keywords: git, GitHub
 
 重新上传文件成功，这次终于是有惊无险。
 
-主要原因是连接 `git` 时总是会出现如 `timeout` 等一系列问题，远不如以前好用了，可能是国内的网络原因嘛，大家都懂。另外我发现，`VSCode`内置的 `git` 命令行成功率也不如 `git bash` ，无论是 `git clone` 还是 `git push` ，所以以后还是多用 `git bash` 吧。
+主要原因是连接 `git` 时总是会出现如 `timeout` 等一系列问题，远不如以前好用了，可能是国内的网络原因嘛，大家都懂。另外我发现，`VSCode` 内置的 `git` 命令行成功率也不如 `git bash` ，无论是 `git clone` 还是 `git push` ，所以以后还是多用 `git bash` 吧。
+
+---
+
+我错了，无论是 `VSCode` 还是 `git bash` ，它们的情况都差的离谱，`push` 一次都要尝试好多次
