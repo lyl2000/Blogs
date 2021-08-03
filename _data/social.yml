@@ -2,19 +2,31 @@
   name: lyl2000
   url: https://github.com/lyl2000
 
-- sitename: LinkedIn
-  name: yunlongli
-  url: https://www.linkedin.com/in/%E4%BA%91%E9%BE%99-%E6%9D%8E-7048a41a7/
-
 - sitename: 博客
   name: 云码
   url: https://lyl2000.github.io/Blogs
+
+- sitename: CSDN
+  name: 容嬷嬷当年一枝花
+  url: https://blog.csdn.net/weixin_44898140
+
+- sitename: LeetCode
+  name: yeliangshen
+  url: https://leetcode-cn.com/u/yeliangshen/
+
+- sitename: 牛客
+  name: yeliangshen
+  url: https://www.nowcoder.com/profile/464296937
+
+- sitename: 知乎
+  name: 容嬷嬷当年一枝花
+  url: https://www.zhihu.com/people/rong-ma-ma-dang-nian-yi-zhi-hua-74
 
 - sitename: 微博
   name: yeliangshen
   url: https://weibo.com/u/7486465748
 
-- sitename: 知乎
-  name: 容嬷嬷当年一枝花
-  url: https://www.zhihu.com/people/rong-ma-ma-dang-nian-yi-zhi-hua-74
+- sitename: LinkedIn
+  name: yunlongli
+  url: https://www.linkedin.com/in/%E4%BA%91%E9%BE%99-%E6%9D%8E-7048a41a7/
 
