@@ -28,3 +28,8 @@ keywords: git, GitHub
 ---
 
 我错了，无论是 `VSCode` 还是 `git bash` ，它们的情况都差的离谱，`push` 一次都要尝试好多次
+
+以下是各类报错：
+- Empty reply from server
+- Failed to connect to github.com port 443: Timed out
+- OpenSSL SSL_read: Connection was reset, errno 10054
