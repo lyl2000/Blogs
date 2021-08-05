@@ -1,7 +1,7 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl:
+baseurl: https://lyl2000.github.io/Blogs
 url: https://lyl2000.github.io/Blogs
 date_format: "ordinal"
 title: 云码
@@ -37,7 +37,7 @@ components:
     # 页面右上角，以及「关于」页面的二维码
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
-        enabled: false
+        enabled: true
         image_alt: yunma
 # 压缩页面内容
 compress_html:
