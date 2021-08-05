@@ -22,7 +22,7 @@ components:
     # weibo,qq,wechat,douban,qzone,linkedin,facebook,twitter
     share:
         enabled: true
-        hide-platforms: qq,facebook
+        hide-platforms: 
     # 不蒜子访问统计
     busuanzi:
         enabled: true
@@ -37,7 +37,7 @@ components:
     # 页面右上角，以及「关于」页面的二维码
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
-        enabled: true
+        enabled: false
         image_alt: yunma
 # 压缩页面内容
 compress_html:
