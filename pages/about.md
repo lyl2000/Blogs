@@ -18,7 +18,7 @@ permalink: /about/
 {% if site.url contains 'lyl2000.github.io' %}
 <li>
 微信公众号：<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/qrcode.jpg" alt="yunma" />
+<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/Blogs/assets/images/qrcode.jpg" alt="yunma" />
 </li>
 {% endif %}
 </ul>
