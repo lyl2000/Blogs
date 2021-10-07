@@ -4,8 +4,9 @@ title: 论 CNN 的前世今生
 categories: [CNN, Deep Learning, Bioinformatics]
 description: 生物信息学第4次课堂记录
 keywords: CNN, Deep Learning, Bioinformatics
+mathjax: true
 ---
-<head>
+<!-- <head>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
@@ -15,7 +16,7 @@ keywords: CNN, Deep Learning, Bioinformatics
             }
         });
     </script>
-</head>
+</head> -->
 
 以 $ImageNet$ 比赛为主要索引，以时间顺序详细介绍 $CNN$ 如何一步步发展的。
 <!-- ======= -->
