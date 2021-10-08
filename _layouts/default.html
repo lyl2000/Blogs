@@ -8,7 +8,7 @@ layout: compress
 {% endif %}
 {% assign assets_images_url = '<img src="' | append: assets_base_url | append: "/images" %}
 {% include header.html %}
-    {% if page.use_math %}
+    {% if page.mathjax %}
         {% include mathjax_support.html %}
     {% endif %}
     {{ content | replace: '<img src="/images', assets_images_url }}
