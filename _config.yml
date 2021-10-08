@@ -99,10 +99,6 @@ subscribe_rss: /feed.xml
 markdown: kramdown
 kramdown:
     input: GFM
-# MathJax Support
-mathjax:
-  enable: true
-  per_page: true
 highlighter: rouge
 paginate: 10
 lsi: false
