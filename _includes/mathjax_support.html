@@ -9,6 +9,9 @@
         inlineMath: [ ['$', '$'] ],
         displayMath: [ ['$$', '$$'] ],
         processEscapes: true,
+        CommonHTML: {
+          scale: 85
+        }
       }
     });
     MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
