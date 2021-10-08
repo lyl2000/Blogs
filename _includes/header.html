@@ -18,12 +18,6 @@
     {% if site.cdn.jsdelivr.enabled %}
     {% assign highlight_base_url = 'https://cdn.jsdelivr.net/gh/mzlogin/rouge-themes@master/dist' %}
     {% endif %}
-
-    <!-- add support for mathjax by voleking-->
-    {% if page.mathjax %}
-      {% include mathjax_support.html %}
-    {% endif %}
-
     <link rel="stylesheet" href="{{ highlight_base_url }}/{{ site.highlight_theme}}.css">
     {% if site.components.share.enabled %}
     <link rel="stylesheet" href="{{ assets_base_url }}/assets/vendor/share.js/dist/css/share.min.css">
