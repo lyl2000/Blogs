@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 论 CNN 的前世今生
+title: 一篇文章带你了解 CNN 的前世今生
 categories: [CNN, Deep Learning, Bioinformatics]
 description: 生物信息学第4次课堂记录
 keywords: CNN, Deep Learning, Bioinformatics
@@ -9,6 +9,8 @@ mathjax: true
 
 以 $ImageNet$ 比赛为主要索引，以时间顺序详细介绍 $CNN$ 如何一步步发展的。
 <!-- ======= -->
+
+![](../images/Bioinformatics-class-4/LeNet.png "LeNet 网络架构")
 
 $1998$ 年，$LeNet$ 出世，由于硬件的限制，这篇论文在当时并没有掀起什么太大的风浪，但是在数十年后的今天，这篇论文被誉为 $CNN$ “三大鼻祖之一”，我们可以在论文里看到梯度下降、反向传播等等现在耳熟能详的东西，许多思想都是从这篇论文开始逐步发展起来。它的网络架构可以简化为：$(Conv - Subsampling) - Fully Connection$ 。其中的 $Subsampling$ 可以认为是现代 CNN 中 $Pooling$ 的雏形。$LeNet$ 的贡献点主要有2个：一是它模拟人脑思维，从 $Low Level$ 到 $High Level$ ，通过局部的卷积操作获取 $local$ 信息，然后进行整合。二是通过卷积操作，大大减少了参数数量。我们知道，对于一个较小的图像而言，假设直接使用全连接网络，那它的参数也会非常多（比如 $1024^2$ ），使用卷积后参数会变为 $w^2$ （其中 $w$ 为卷积核大小）
 
