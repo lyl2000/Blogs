@@ -1,12 +1,12 @@
 ---
 layout: post
-title: JavaScript学习笔记
+title: $JavaScript$ 学习笔记
 categories: [JavaScript]
 description: 廖雪峰JavaScript网站学习记录
 keywords: JavaScript
 ---
 
-本篇博客主要依据[廖雪峰官方javascript教程](https://www.liaoxuefeng.com/wiki/1022910821149312)学习并记录相关知识点。
+本篇文章主要依据[廖雪峰官方javascript教程](https://www.liaoxuefeng.com/wiki/1022910821149312)学习并记录相关知识点。
 <!-- ======= -->
 JavaScript之前在做数据库课设时其实用到过，主要是前端设计那里，包括jQuery、Ajax也都涉及过，但也仅此而已，并没有系统地学习过这个语言。现在对于网页的脚本感兴趣，因此趁着有时间特地学习一下。
 

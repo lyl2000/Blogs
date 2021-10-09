@@ -1,13 +1,14 @@
 ---
 layout: post
-title: 记一次git撤销删除操作
+title: 记一次 $git$ 撤销删除操作
 categories: [git, GitHub]
 description: 记一次git撤销删除操作
 keywords: git, GitHub
 ---
 
-今天想把自己前几学期写的代码整理到GitHub上，没想到还没上传，代码自己先被删没了，吓得心脏骤停，好在后面抢救回来了。
+本地文件误删后使用 $git$ 撤销删除
 <!-- ======= -->
+今天想把自己前几学期写的代码整理到GitHub上，没想到还没上传，代码自己先被删没了，吓得心脏骤停，好在后面抢救回来了。
 
 一开始建仓库，然后 `git remote add origin` 连接到远程仓库，`push` 到仓库里，结果发生了莫名错误，尝试了几次都是这样，于是想 `git clone` 后手动复制到文件夹中再上传。
 
