@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 一篇文章带你零基础入门NumPy和PyTorch
-categories: [Python, NumPy, PyTorch, Deep Learning, Bioinformatics]
+title: 一篇文章带你零基础入门$NumPy$和$PyTorch$
+categories: [PyTorch, DL, Bioinformatics]
 description: 生物信息学exp1实验报告
-keywords: Python, Bioinformatics, PyTorch, NumPy, Deep Learning
+keywords: Bioinformatics, PyTorch, DL
 ---
 
 在本篇文章里，我们将使用 `NumPy` 和 `PyTorch` 编程，围绕距离矩阵这个问题展开，通过比较运行速度进一步探索循环与矩阵运算在深度学习里的应用。

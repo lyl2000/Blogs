@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 一篇文章带你了解 CNN 的前世今生
-categories: [CNN, Deep Learning, Bioinformatics]
+title: 一篇文章带你了解 $CNN$ 的前世今生
+categories: [DL, Bioinformatics]
 description: 生物信息学第4次课堂记录
-keywords: CNN, Deep Learning, Bioinformatics
+keywords: DL, Bioinformatics
 mathjax: true
 ---
 

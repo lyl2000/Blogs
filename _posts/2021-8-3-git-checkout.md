@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 记一次 $git$ 撤销删除操作
-categories: [git, GitHub]
+categories: [git]
 description: 记一次git撤销删除操作
-keywords: git, GitHub
+keywords: git
 ---
 
 本地文件误删后使用 $git$ 撤销删除
