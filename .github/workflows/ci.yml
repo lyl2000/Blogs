@@ -27,7 +27,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
-          ACCESS_TOKEN: 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 # ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN:  ${{ secrets.ACCESS_TOKEN }}
           BRANCH: built
           FOLDER: _site
           CLEAN: true
